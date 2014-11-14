@@ -1,0 +1,79 @@
+.row{
+	margin:0;
+	padding:0;
+	height:50%;
+}
+
+.Resumen, .Graficos{
+	height: 100%;
+}
+
+.Resumen{
+	background-color: #777;
+	
+}
+.Graficos{
+	background-color: #666;
+}
+
+.Datos{
+	height: 300px;
+	position: relative;
+	background-color: #555;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+.celda{
+	padding: 0;
+	text-align: center;
+	height: 1.7em;
+	font-size: x-small;
+}
+
+.h_celda{
+	padding: 0;
+    background-color: #666;
+    color:white; 
+	height: 1.7em;
+	font-size: x-small;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.selected{
+	border:1px solid green;
+}
+
+[contenteditable="true"]:focus{
+border:1px solid green;
+outline:none;
+}
+
+td{
+	border-color: red;
+}
+
+td:nth-child(1) { 
+	background-color: #666; 
+	color:white;
+}
+
+
+/*****             Chart *****/
+
+
+#chart_div{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
